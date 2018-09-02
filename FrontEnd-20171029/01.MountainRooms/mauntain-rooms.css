@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width:100%;
+    font-family:'Lato', 'Montserrat',sans-serif;
+    font-size: 15px;
+}
+main {
+    margin: 80px auto;
+    position: relative;
+    width: 95%;
+
+    }
+.article-wrapper {
+    display: flex;
+    flex-flow: row;
+}
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+}
+h1 {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+article {
+    width: 35%;
+    position: relative;
+    box-sizing: border-box;
+    color: #9F8F81;
+    text-align: left;
+    margin: 30px;
+    padding: 0 20px;
+
+}
+
+h3.price span {
+    color: #003EA8;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+h2 {
+font-size: 22px;
+margin: 15px 0;
+}
+
+ul#goodies {
+    display: inline-block;
+    list-style-type: disc;
+    width: 100%;
+}
+h3 {
+font-size: 15px;
+margin: 15px 0;
+}
+
+li {
+    display: inline-block;
+   font-size: 12px;
+    text-align: left;
+}
+li::before {
+    content: '\2022 ';
+    color: #c1c0bf;
+    font-size: 8px;
+}
+
+li.no-dot::before {
+    content: " ";
+}
+
