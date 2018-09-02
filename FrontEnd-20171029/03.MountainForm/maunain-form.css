@@ -1,0 +1,131 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Source Sans', sans-serif;
+   background-color: #FAFAFA;
+}
+
+main {
+    margin: auto;
+    height: auto;
+    background-color: #F3FCFF  ;
+}
+
+form {
+    display: block;
+    justify-content: flex-start;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    width: 320px;
+    height: 400px;
+
+}
+h1 {width: 60%;
+    font-family:"Francois One" , sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: auto;
+    padding-bottom: 3px;
+    border-bottom: solid 2px #00D87D;
+    margin-bottom: 25px;
+}
+
+
+span {
+position: absolute;
+top: -3px;
+left: -7px;
+color: red;
+font-size: 7px;
+}
+
+.fields-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+padding: 30px;
+padding-right: 45px;
+}
+
+span.in-password {
+    position: relative;
+    left: 0;
+    top: -1px;
+    margin: 0 2px;
+    color:#B6DDE4 ;
+}
+
+label {
+    font-family: 'Source Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    position: absolute;
+    top: -16px;
+}
+div.input-field {
+    position: relative;
+    float: left;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+
+.input {
+    width: 60%;
+    height: 46px;
+    position: relative;
+
+}
+
+input {
+    position: relative;
+    left: 0px;
+    bottom: 4px;
+    height: 25px;
+
+    font-size: 14px;
+    width: 96%;
+    border: 1px solid #B6DDE4;
+    border-radius: 2px;
+}
+
+::placeholder {
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+i {
+    position: absolute;
+    border-right: solid 1px #B6DDE4;
+    padding: 2px;
+    left: 3px;
+    bottom: 27px;
+    width: 15px;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    width: 80px;
+    height: 24px;
+    background-color: #00D87D;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    bottom: 35px;
+    left: 144px;
+}

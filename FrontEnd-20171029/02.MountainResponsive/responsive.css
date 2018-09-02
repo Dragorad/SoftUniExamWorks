@@ -1,0 +1,73 @@
+@media all and (max-width: 479px) {
+    body {position: relative;
+        display: block;
+    }
+        .menu ul{
+        display: none;
+    }
+        nav.menu {
+            width: 100%;
+            padding: 0.5em;
+            height: 2em;
+            align-items: center;
+            justify-content: space-between;
+        }
+    .menu span {
+margin-left: 2em;
+    }
+    .paragraph {
+        font-size: 0.6em;
+        width: 96%;
+    }
+    nav.menu i {
+        display: inline-flex;
+        float: right;
+        font-size: 24px;
+        padding-right: 2em;
+    }
+    .headings {
+        margin: 0.5em auto;
+        width: 85%;
+        font-size: 1.1em;
+    }
+    .best-place {
+        font-size: 12px;
+    }
+    .about-us {
+        padding: 0 2%;
+    }
+    p#country-descr {
+        margin: 2em auto;
+        width: 91%;
+        color: #828282;
+        }
+    .views {
+        flex-flow: column;
+    }
+    hr {
+        width: 80%;
+    }
+    div.info hr {
+        width: 20%;
+    }
+    #second-heading {
+        width: 85%;
+        margin: 1em auto;
+
+    }
+    .why-us , .our-team{
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+    article.extras {
+        width: 95%;
+    }
+    .headings:last-of-type {
+        height: 96%;
+        font-size: 0.9em;
+        margin: 1em auto;
+    }
+}
+
